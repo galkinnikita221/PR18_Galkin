@@ -21,11 +21,12 @@ namespace PrintManagementSystem_Galkin.classes
 		public static List<TypeOpertation> AllTypeOperation()
 		{
 			List<TypeOpertation> alltypeOpertations = new List<TypeOpertation>();
+
 			alltypeOpertations.Add(new TypeOpertation(1, "Печать", ""));
 			alltypeOpertations.Add(new TypeOpertation(2, "Копия", ""));
 			alltypeOpertations.Add(new TypeOpertation(3, "Сканирование", ""));
 			alltypeOpertations.Add(new TypeOpertation(4, "Ризограф", ""));
-			return AllTypeOperation();
+			return alltypeOpertations;
 		}
 	}
 }

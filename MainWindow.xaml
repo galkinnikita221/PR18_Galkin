@@ -45,7 +45,9 @@
 					<ComboBox SelectionChanged="SelectedFormat" x:Name="formats" Margin="10,99,10,0" VerticalAlignment="Top"/>
 					<Label Content="Количество:" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top"/>
 					<TextBox x:Name="textBoxCount" TextChanged="textBoxCount_Changed" PreviewTextInput="TextBox_PreviewTextInput" Height="23" Margin="10,177,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-					<Button x:Name="addOperationButton" Click="AddOperation" Content="Добавить:" HorizontalAlignment="Right" Margin="0,264,10,0" VerticalAlignment="Top" Width="75"/>
+                    <Label Content="Сумма"  HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="textBoxPrice" Height="23" Margin="10,236,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+                    <Button x:Name="addOperationButton" Click="AddOperation" Content="Добавить:" HorizontalAlignment="Right" Margin="0,264,10,0" VerticalAlignment="Top" Width="75"/>
 					<CheckBox Click="ColorsChange" x:Name="TwoSides" Content="Две стороны" HorizontalAlignment="Left" Margin="10,126,0,0" VerticalAlignment="Top"/>
 					<CheckBox Click="ColorsChange" x:Name="Colors" Content="Цветная" HorizontalAlignment="Left" Margin="106,126,0,0" VerticalAlignment="Top"/>
 					<CheckBox Click="ColorsChange" x:Name="LotOfColor" Content="Более 50% цвета" HorizontalAlignment="Left" Margin="177,126,0,0" VerticalAlignment="Top"/>

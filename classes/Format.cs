@@ -25,7 +25,7 @@ namespace PrintManagementSystem_Galkin.classes
 			allFormat.Add(new Format(2, "A3", ""));
 			allFormat.Add(new Format(3, "A2", ""));
 			allFormat.Add(new Format(4, "A1", ""));
-			return AllFormats();
+			return allFormat;
 		}
 	}
 }
